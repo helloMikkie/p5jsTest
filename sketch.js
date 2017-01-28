@@ -21,7 +21,7 @@ function mouseDragged() {
 }*/
 
 function draw() {
-	background(0);
+	background(100,200,255);
 	for (var i = 0; i < balls.length; i++) {
 		balls[i].move();
 		balls[i].display();
