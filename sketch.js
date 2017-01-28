@@ -2,9 +2,10 @@
 // function To Objekt to array
 
 var balls = [];
-
+var cvs;
 function setup() {
-	createCanvas(1024, 600);
+	cvs = createCanvas(800, 600);
+	cvs.parent("p5container");
 	//durch Übergabe an Parameter in Object kann dasentfallen
 /*	for (var i = 0; i < 2; i++) {
 		balls[i] = new Ball();
