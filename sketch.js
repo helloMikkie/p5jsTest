@@ -5,7 +5,7 @@ var balls = [];
 var cvs;
 function setup() {
 	cvs = createCanvas(800, 600);
-	cvs.parent("p5container");
+	cvs.parent("canvasp");
 	//durch Übergabe an Parameter in Object kann dasentfallen
 /*	for (var i = 0; i < 2; i++) {
 		balls[i] = new Ball();
